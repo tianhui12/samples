@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473515417490",
+    "project_id": "fa-demo-aabb2",
+    "storage_bucket": "fa-demo-aabb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473515417490:android:976c26a95154ab8bd82b4b",
+        "android_client_info": {
+          "package_name": "dev.flutter.testing_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZbSyXE8JPCYqgQ9EjJ1g86zG0VzPpPKc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
