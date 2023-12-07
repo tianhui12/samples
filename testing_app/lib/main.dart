@@ -14,9 +14,9 @@ import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
   runApp(const TestingApp());
 }
 
@@ -42,6 +42,7 @@ class TestingApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Firebase.initializeApp();
     return ChangeNotifierProvider<Favorites>(
       create: (context) => Favorites(),
       child: MaterialApp.router(
