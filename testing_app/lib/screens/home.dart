@@ -13,9 +13,6 @@ import 'package:testing_app/screens/favorites.dart';
 
 class HomePage extends StatelessWidget {
   static const routeName = '/';
-  
-  // final FirebaseAnalytics analytics;
-  // final FirebaseAnalyticsObserver observer;
 
   static FirebaseAnalytics analytics = FirebaseAnalytics.instance;
   static FirebaseAnalyticsObserver observer =
