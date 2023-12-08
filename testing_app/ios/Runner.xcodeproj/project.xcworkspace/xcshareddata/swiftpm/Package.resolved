@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "growingio-sdk-ios-autotracker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/growingio/growingio-sdk-ios-autotracker.git",
+      "state" : {
+        "revision" : "9166b0c7698062ab0669eeb574bc8711df5bcbf2",
+        "version" : "3.5.0"
+      }
+    },
+    {
+      "identity" : "growingio-sdk-ios-performance-ext",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/growingio/growingio-sdk-ios-performance-ext.git",
+      "state" : {
+        "revision" : "fc7b7859a4eb460d39a2b0a50df9f69d87953dcc",
+        "version" : "0.0.16"
+      }
+    },
+    {
+      "identity" : "growingio-sdk-ios-utilities",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/growingio/growingio-sdk-ios-utilities.git",
+      "state" : {
+        "revision" : "4d69a50156931225bb1718348fa86fae3ffbe01e",
+        "version" : "0.0.7"
+      }
+    },
+    {
+      "identity" : "swift-protobuf",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-protobuf.git",
+      "state" : {
+        "revision" : "65e8f29b2d63c4e38e736b25c27b83e012159be8",
+        "version" : "1.25.2"
+      }
+    }
+  ],
+  "version" : 2
+}

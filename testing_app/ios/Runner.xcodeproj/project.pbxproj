@@ -11,6 +11,8 @@
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		331C808B294A63AB00263BE5 /* RunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331C807B294A618700263BE5 /* RunnerTests.swift */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
+		41C0C33E2B221D8900BD55B4 /* GrowingGAAdapter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C0C33D2B221D8900BD55B4 /* GrowingGAAdapter.xcframework */; };
+		41C0C33F2B221D8900BD55B4 /* GrowingGAAdapter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 41C0C33D2B221D8900BD55B4 /* GrowingGAAdapter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6473B0D5C231C9183570B84B /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE12A597D24DB3981FD43D12 /* Pods_RunnerTests.framework */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -36,6 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				41C0C33F2B221D8900BD55B4 /* GrowingGAAdapter.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,6 +53,7 @@
 		331C8081294A63A400263BE5 /* RunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D3C7E4372AC3522353D9FB /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		41C0C33D2B221D8900BD55B4 /* GrowingGAAdapter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GrowingGAAdapter.xcframework; path = "../../../../iOS/growingio-sdk-ios-ga-adapter/GrowingGAAdapter.xcframework"; sourceTree = "<group>"; };
 		6667317E13462EBABB5E8423 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72367E3BFB890981C10B044A /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E70F5E93D198E51BC24D931B /* Pods_Runner.framework in Frameworks */,
+				41C0C33E2B221D8900BD55B4 /* GrowingGAAdapter.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,7 @@
 		4F8C45328A812FD2E65860BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				41C0C33D2B221D8900BD55B4 /* GrowingGAAdapter.xcframework */,
 				6667317E13462EBABB5E8423 /* Pods_Runner.framework */,
 				EE12A597D24DB3981FD43D12 /* Pods_RunnerTests.framework */,
 			);
@@ -239,6 +245,8 @@
 				Base,
 			);
 			mainGroup = 97C146E51CF9000F007C117D;
+			packageReferences = (
+			);
 			productRefGroup = 97C146EF1CF9000F007C117D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

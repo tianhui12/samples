@@ -11,12 +11,14 @@ import 'package:testing_app/models/favorites.dart';
 import 'package:testing_app/screens/favorites.dart';
 import 'package:testing_app/screens/home.dart';
 import 'firebase_options.dart';
+// 无埋点
+import 'package:growingio_autotracker_flutter_plugin/growingio_autotracker_flutter_plugin.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  // await Firebase.initializeApp(
+  //   options: DefaultFirebaseOptions.currentPlatform,
+  // );
   runApp(const TestingApp());
 }
 
@@ -42,6 +44,7 @@ class TestingApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Firebase.initializeApp();
     return ChangeNotifierProvider<Favorites>(
       create: (context) => Favorites(),
       child: MaterialApp.router(
